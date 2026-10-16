@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&M Essências | Perfumes</title>
+  <meta name="description" content="Conheça o catálogo de perfumes da M&M Essências.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111111;
+      color: #f5f0e8;
+    }
+
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #333333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #d8b779;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #f5f0e8;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #191919, #29231b);
+    }
+
+    .hero p {
+      color: #d8b779;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 64px);
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #d8b779;
+    }
+
+    .hero .description {
+      color: #c5c0b8;
+      font-size: 16px;
+      letter-spacing: normal;
+      text-transform: none;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d8b779;
+      color: #111111;
+      padding: 14px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .catalog {
+      padding: 60px 8%;
+      text-align: center;
+    }
+
+    .catalog h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .catalog > p {
+      color: #aaa49b;
+      margin-bottom: 30px;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      border: 1px solid #d8b779;
+      color: #d8b779;
+      padding: 12px 20px;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #aaa49b;
+      border-top: 1px solid #333333;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 75px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">M&M ESSÊNCIAS</div>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#catalogo">Catálogo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p>A sua essência, o seu estilo</p>
+
+      <h1>Fragrâncias que <span>marcam.</span></h1>
+
+      <div class="description">
+        Descubra perfumes que combinam com você.
+        Explore nosso catálogo e encontre sua próxima fragrância.
+      </div>
+
+      <a class="button" href="#catalogo">Explorar perfumes</a>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <h2>Nosso catálogo</h2>
+
+      <p>Encontre a fragrância ideal para cada momento.</p>
+
+      <div class="categories">
+        <div class="category">Masculinos</div>
+        <div class="category">Femininos</div>
+        <div class="category">Unissex</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    M&M Essências · Sua essência, seu estilo.
+  </footer>
+
+</body>
+</html>
