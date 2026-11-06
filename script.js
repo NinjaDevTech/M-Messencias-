@@ -7,7 +7,7 @@ const produtos = [
     marca: "Hinode",
     categoria: "masculino",
     preco: 199.90,
-    imagem: "https://hinodegroup.vtexassets.com/arquivos/ids/164650/10215---EMPIRE-CLASSICO_3.png?v=639090114428030000",
+    imagem: "https://hinodegroup.vtexassets.com/arquivos/ids/164659-800-auto?aspect=true&height=auto&v=639107552006000000&width=800",
     descricao: "Uma fragrância marcante e sofisticada para quem transmite presença."
   },
   {
@@ -63,7 +63,7 @@ const produtos = [
     marca: "Hinode",
     categoria: "masculino",
     preco: 279.90,
-    imagem: "https://hinodegroup.vtexassets.com/arquivos/ids/164442-800-auto?aspect=true&height=auto&v=639088589581300000&width=800",
+    imagem: "https://acdn-us.mitiendanube.com/stores/003/701/144/products/empire-the-one-deo-parfum-100ml-2-987bdfded063d28d6d17436853159245-1024-1024.webp",
     descricao: "Uma fragrância elegante para quem busca exclusividade."
   }
 ];
