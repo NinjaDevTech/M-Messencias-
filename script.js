@@ -7,7 +7,7 @@ const produtos = [
     marca: "Hinode",
     categoria: "masculino",
     preco: 199.90,
-    imagem: "https://hinodegroup.vtexassets.com/arquivos/ids/164659-800-auto?aspect=true&height=auto&v=639107552006000000&width=800",
+    imagem: "https://hinodeb2b.vtexassets.com/arquivos/ids/157518-800-auto?aspect=true&height=auto&v=638309875105230000&width=800",
     descricao: "Uma fragrância marcante e sofisticada para quem transmite presença."
   },
   {
